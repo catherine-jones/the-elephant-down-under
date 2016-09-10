@@ -1,0 +1,270 @@
+@font-face {
+	font-family: 'Conv_HelveticaNeueLTCom-Lt';
+	src: url('../fonts/HelveticaNeueLTCom-Lt.eot');
+	src: local('â˜º'), url('../fonts/HelveticaNeueLTCom-Lt.woff') format('woff'), url('../fonts/HelveticaNeueLTCom-Lt.ttf') format('truetype'), url('../fonts/HelveticaNeueLTCom-Lt.svg') format('svg');
+	font-weight: 200;
+	font-style: normal;
+}
+
+.logo {
+  margin:65px 0 40px 0;
+  text-align:center;
+
+  img {
+    max-width:100%;
+  }
+}
+
+.caption {
+  font-size:16px;
+  line-height:24px;
+  padding-bottom: 30px;
+}
+
+p {
+  padding:15px 0 0 0;
+  display:inline-block;
+  margin:0;
+}
+
+.gray {
+  background:#f7f7f7;
+}
+
+.blue {
+  background:#00adef;
+  color:#fff;
+}
+
+h2 {
+  text-align:center;
+  font-size:44px;
+  line-height:50px;
+  font-weight:300;
+  color:#00adef;
+}
+
+.blue h2 {
+  color:#fff;
+}
+
+.center-block {
+  float:none;
+}
+
+ul {
+  padding:10px 0 20px 0;
+  margin:0 0 25px 0;
+  display:inline-block;
+  margin-left: -15px;
+  margin-top: -20px;
+}
+
+li {
+  padding: 0;
+  margin: 13px 0; background:url(../images/list_arw.png) no-repeat left 4px;
+  list-style: none;
+  padding: 0 0 0 22px;
+}
+
+.blue li {
+  background: url(../images/blue_list.jpg) no-repeat left 4px;
+}
+
+.big_font {
+  font-size: 116px;
+  line-height: 139px;
+  font-weight: 200;
+  font-family: 'Conv_HelveticaNeueLTCom-Lt';
+  letter-spacing: -2px;
+  margin-top: 12px;
+}
+
+.big_font span {
+  font-family: 'Conv_HelveticaNeueLTCom-Lt';
+}
+
+.blue_color {
+  color:#00adef;
+}
+
+.percent_font {
+  font-size: 20px;
+  line-height: 28px;
+  padding-top: 10px;
+  padding-left: 30px;
+}
+
+.percent_font1 {
+  font-size: 20px;
+  line-height: 28px;
+  margin-top: -5px;
+  padding-left: 30px;
+}
+
+.percent_font2 {
+  font-size: 20px;
+  line-height: 28px;
+  margin-top: -10px;
+  padding-left: 0px;
+  padding-bottom: 10px;
+  color: #00adef;
+}
+
+.last-cont {
+  padding:0 0 70px 0;
+}
+
+@media (max-width: 800px) {
+  h2 {
+    font-size: 55px;
+    line-height: 60px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  p {
+    padding:15px 0 0 0;
+  }
+
+  .big_font {
+    font-size: 116px;
+    line-height: 139px;
+    font-weight: 200;
+    font-family: 'Conv_HelveticaNeueLTCom-Lt';
+    letter-spacing: -2px;
+    margin-top: 12px;
+    text-align: center;
+  }
+
+  .percent_font {
+    font-size: 20px;
+    line-height: 28px;
+    padding-top: 0;
+    margin-left: 0px;
+    margin-top: -25px;
+  }
+
+  .percent_font1 {
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: -25px;
+    margin-left: 0px;
+  }
+
+  ul {
+    padding: 10px 0 20px 0;
+    margin: 0 0 25px 0;
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  li {
+    padding: 0;
+    margin: 13px 0;
+    background: url(../images/list_arw.png) no-repeat left 4px; list-style:none;
+    padding: 0 0 0 22px;
+  }
+
+  .percent_font3 {
+    font-size: 16px;
+    line-height: 20px;
+    padding-left: 15px;
+    margin-top: 30px;
+  }
+}
+
+.landing h2{
+  margin-bottom: 40px;
+}
+
+.landing ul{
+  margin: 40px 0;
+}
+
+@media (min-width: 1200px){
+  .container {
+      width: 667px;
+  }
+}
+
+@media (min-width: 992px){
+  .container {
+      width: 667px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+      width: 667px;
+  }
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 300;
+  color: rgb(51, 51, 51);
+}
+
+.logo {
+  background-image: url('../images/suit-case.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 350px;
+  height: 250px;
+  text-align: center;
+  margin: auto;
+  margin-top: 65px;
+  margin-bottom: 50px;
+
+  h1{
+    padding-top: 70px;
+    color: white;
+    font-size: 56px;
+    line-height: 76px;
+    font-weight: 300;
+  }
+}
+
+h2 {
+  font-size: 66px;
+  line-height: 76px;
+  font-weight: 300;
+  padding-top: 60px !important;
+  padding-bottom: 20px
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: white;
+  border-top: solid 2px #00adef;
+  height:80px;
+  font-size: 14px;
+
+  p:last-child {
+    padding-bottom: 15px;
+  }
+}
