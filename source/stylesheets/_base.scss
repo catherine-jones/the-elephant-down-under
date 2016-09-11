@@ -58,13 +58,13 @@ ul {
   display:inline-block;
   margin-left: -15px;
   margin-top: -20px;
-}
 
-li {
-  padding: 0;
-  margin: 13px 0; background:url(../images/list_arw.png) no-repeat left 4px;
-  list-style: none;
-  padding: 0 0 0 22px;
+  li {
+    padding: 0;
+    margin: 13px 0; background:url(../images/list_arw.png) no-repeat left 4px;
+    list-style: none;
+    padding: 0 0 0 22px;
+  }
 }
 
 .blue li {
@@ -78,10 +78,10 @@ li {
   font-family: 'Conv_HelveticaNeueLTCom-Lt';
   letter-spacing: -2px;
   margin-top: 12px;
-}
 
-.big_font span {
-  font-family: 'Conv_HelveticaNeueLTCom-Lt';
+  span {
+    font-family: 'Conv_HelveticaNeueLTCom-Lt';
+  }
 }
 
 .blue_color {
@@ -159,13 +159,13 @@ li {
     display: inline-block;
     margin-left: 0px;
     margin-top: 0px;
-  }
 
-  li {
-    padding: 0;
-    margin: 13px 0;
-    background: url(../images/list_arw.png) no-repeat left 4px; list-style:none;
-    padding: 0 0 0 22px;
+    li {
+      padding: 0;
+      margin: 13px 0;
+      background: url(../images/list_arw.png) no-repeat left 4px; list-style:none;
+      padding: 0 0 0 22px;
+    }
   }
 
   .percent_font3 {
@@ -176,29 +176,13 @@ li {
   }
 }
 
-.landing h2{
-  margin-bottom: 40px;
-}
-
-.landing ul{
-  margin: 40px 0;
-}
-
-@media (min-width: 1200px){
-  .container {
-      width: 667px;
+.landing {
+  h2 {
+    margin-bottom: 40px;
   }
-}
 
-@media (min-width: 992px){
-  .container {
-      width: 667px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-      width: 667px;
+  ul{
+    margin: 40px 0;
   }
 }
 
@@ -207,6 +191,18 @@ li {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+
+  @media (min-width: 1200px){
+    width: 667px;
+  }
+
+  @media (min-width: 992px){
+    width: 667px;
+  }
+
+  @media (min-width: 768px) {
+    width: 667px;
+  }
 }
 
 .center-block {
@@ -266,5 +262,11 @@ footer {
 
   p:last-child {
     padding-bottom: 15px;
+  }
+}
+
+h2 {
+  @media (max-width: 768px) {
+    font-size: 60px;
   }
 }
