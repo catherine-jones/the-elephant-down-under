@@ -100,6 +100,10 @@ ul {
   line-height: 28px;
   margin-top: -5px;
   padding-left: 30px;
+
+	p{
+		padding-top: 25px;
+	}
 }
 
 .percent_font2 {
@@ -223,19 +227,30 @@ body {
   background-image: url('../images/suit-case.png');
   background-repeat: no-repeat;
   background-size: cover;
-  width: 350px;
-  height: 250px;
+  width: 471px;
+  height: 345px;
   text-align: center;
   margin: auto;
   margin-top: 65px;
   margin-bottom: 50px;
 
+	  @media (max-width: 768px) {
+			width: 314px;
+		  height: 230px;
+		}
+
   h1{
-    padding-top: 70px;
+    padding-top: 90px;
     color: white;
     font-size: 56px;
     line-height: 76px;
     font-weight: 300;
+
+		@media (max-width: 768px) {
+			padding-top: 60px;
+			font-size: 40px;
+			line-height: 55px;
+		}
   }
 }
 
