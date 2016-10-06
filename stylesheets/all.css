@@ -6263,3 +6263,12 @@ footer {
   /* line 283, /Users/BitGirl/development/the-elephant-down-under/source/stylesheets/_base.scss */
   h2 {
     font-size: 60px; } }
+
+/* line 289, /Users/BitGirl/development/the-elephant-down-under/source/stylesheets/_base.scss */
+.comparison {
+  clear: both;
+  padding-bottom: 15px; }
+
+/* line 294, /Users/BitGirl/development/the-elephant-down-under/source/stylesheets/_base.scss */
+.fa {
+  padding-right: 10px; }
